@@ -26,7 +26,7 @@ output:
 
 # Dziedziny pomocnicze
 
-- $Proc = (State \to \Z) \times (\Z \to State \to State)$
+- $Proc = (VEnv \to State \to \Z) \times (\Z \to State \to State)$
 - $PEnv = PName \to Proc$
 
 # Dziedziny semantyczne
@@ -45,11 +45,11 @@ $$
     \left(
         \rov,
         \rop \left[p \mapsto \left(
-            \E \llbracket e \rrbracket\ \rov,
+            \E \llbracket e \rrbracket,
             \Fix \Phi\right)\right],
         s\right) \\
 & \t \Where \Phi\ P\ n\ s =
-    \S \llbracket I \rrbracket\ \rov[x \mapsto l_x]\ \rop[p \mapsto \left(\E \llbracket e \rrbracket\ \rov, P\right)]\ s'[l_x \mapsto n] \\
+    \S \llbracket I \rrbracket\ \rov[x \mapsto l_x]\ \rop[p \mapsto \left(\E \llbracket e \rrbracket, P\right)]\ s'[l_x \mapsto n] \\
 & \t\t \Where (l_x, s') = \Alloc s
 \end{split}
 $$
@@ -59,7 +59,7 @@ $$
 ### $\Call p$
 $$
 \begin{split}
-& \S \llbracket \Call p \rrbracket\ \rov\ \rop\ s = P\ (\e\ s)\ s \\
+& \S \llbracket \Call p \rrbracket\ \rov\ \rop\ s = P\ (\e\ \rov\ s)\ s \\
 & \t \Where (\e, P) = \rop\ p
 \end{split}
 $$
