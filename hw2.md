@@ -14,11 +14,11 @@ header-includes:
     - \newcommand{\e}{\epsilon}
     - \renewcommand{\S}{\mathcal{S}}
     - \newcommand{\Where}{\textsf{where }}
-    - \newcommand{\Let}{\textsf{let }}
-    - \newcommand{\In}{\textsf{in }}
     - \newcommand{\Alloc}{\textsf{alloc }}
     - \newcommand{\Fix}{\textsf{fix }}
     - \renewcommand{\t}{\qquad}
+    - \newcommand{\rov}{\rho_{V}}
+    - \newcommand{\rop}{\rho_{P}}
 output:
     pdf_document
 ---
@@ -27,6 +27,12 @@ output:
 # Dziedziny pomocnicze
 
 - $Proc = (State \to \Z) \times (\Z \to State \to State)$
+- $PEnv = PName \to Proc$
+
+# Dziedziny semantyczne
+
+- $\D : Decl \to VEnv \to PEnv \to State \to (VEnv \times PEnv \times State)$
+- $\S : Instr \to VEnv \to PEnv \to State \to State$
 
 # Rozwiązanie
 
@@ -35,10 +41,16 @@ output:
 ### $\proc p(x \default e)\ I$
 $$
 \begin{split}
-& \D \llbracket \proc p(x \default e)\ I \rrbracket\ \rho\ s = \left(\rho\left[p \mapsto \left(\E \llbracket e \rrbracket\ \rho, \Fix \Phi\right)\right], s\right) \\
-& \t \Where \Phi\ f\ n\ s = \\
-& \t\t \Let (l_x, s') = \Alloc s \\
-& \t\t \In \S \llbracket I \rrbracket\ \rho[p \mapsto \left(\E \llbracket e \rrbracket\ \rho, f\right)][x \mapsto l_x]\ s'[l_x \mapsto n]
+& \D \llbracket \proc p(x \default e)\ I \rrbracket\ \rov\ \rop\ s =
+    \left(
+        \rov,
+        \rop \left[p \mapsto \left(
+            \E \llbracket e \rrbracket\ \rov,
+            \Fix \Phi\right)\right],
+        s\right) \\
+& \t \Where \Phi\ P\ n\ s =
+    \S \llbracket I \rrbracket\ \rov[x \mapsto l_x]\ \rop[p \mapsto \left(\E \llbracket e \rrbracket\ \rov, P\right)]\ s'[l_x \mapsto n] \\
+& \t\t \Where (l_x, s') = \Alloc s
 \end{split}
 $$
 
@@ -47,15 +59,15 @@ $$
 ### $\Call p$
 $$
 \begin{split}
-& \S \llbracket \Call p \rrbracket\ \rho\ s = f\ (\e\ s)\ s \\
-& \t \Where (\e, f) = \rho\ p
+& \S \llbracket \Call p \rrbracket\ \rov\ \rop\ s = P\ (\e\ s)\ s \\
+& \t \Where (\e, P) = \rop\ p
 \end{split}
 $$
 
 ### $\Call p(e)$
 $$
 \begin{split}
-& \S \llbracket \Call p(e) \rrbracket\ \rho\ s = f\ (\E \llbracket e \rrbracket\ \rho\ s)\ s \\
-& \t \Where (\_, f) = \rho\ p
+& \S \llbracket \Call p(e) \rrbracket\ \rov\ \rop\ s = P\ (\E \llbracket e \rrbracket\ \rov\ s)\ s \\
+& \t \Where (\_, P) = \rop\ p
 \end{split}
 $$
