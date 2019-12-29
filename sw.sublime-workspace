@@ -1,0 +1,1504 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"train",
+				"training_logs_file_name\tabc"
+			],
+			[
+				"age",
+				"agent_num\tabc"
+			],
+			[
+				"setp",
+				"step_results\tabc"
+			],
+			[
+				"num",
+				"num_agents\tabc"
+			],
+			[
+				"acti",
+				"actions_to_run\tabc"
+			],
+			[
+				"act",
+				"actions_to_run\tabc"
+			],
+			[
+				"option",
+				"option"
+			],
+			[
+				"referral",
+				"referral_code"
+			],
+			[
+				"FREE",
+				"FREE_BOOKINGS_FOR_RECIPIENT"
+			],
+			[
+				"free_bookin",
+				"free_bookings_remaining"
+			],
+			[
+				"free_booking",
+				"free_bookings_credit_used"
+			],
+			[
+				"free_bookings",
+				"free_bookings_remaining"
+			],
+			[
+				"bus",
+				"bus_registration_number"
+			],
+			[
+				"last",
+				"last_bus_stop_departure_time"
+			],
+			[
+				"alighting",
+				"alighting_bus_stop_id"
+			],
+			[
+				"board",
+				"boarding_bus_stop_id"
+			],
+			[
+				"boarding_bus",
+				"boarding_bus_stop_name"
+			],
+			[
+				"prev",
+				"previous_path"
+			],
+			[
+				"crossed",
+				"crossed_bus_stop"
+			],
+			[
+				"current",
+				"current_bus"
+			],
+			[
+				"depar",
+				"departure_time"
+			],
+			[
+				"regi",
+				"registration_number"
+			],
+			[
+				"boarding",
+				"boarding_bus_stop_id"
+			],
+			[
+				"paths",
+				"paths_on_route"
+			],
+			[
+				"destin",
+				"destination_path"
+			],
+			[
+				"source",
+				"source_path"
+			],
+			[
+				"avail",
+				"available"
+			],
+			[
+				"last_bus",
+				"last_bus_stop_path"
+			],
+			[
+				"last_bus_stop",
+				"last_bus_stop_id"
+			],
+			[
+				"update",
+				"update_firebase_entry_for_trip"
+			],
+			[
+				"aligh",
+				"alighting_bus_stop_id"
+			],
+			[
+				"aut",
+				"authenticate_bus_with_token"
+			],
+			[
+				"walki",
+				"walking_directions_to_bus_stop"
+			],
+			[
+				"boardin",
+				"boarding_bus_stop"
+			],
+			[
+				"walking",
+				"walking_direction_from_bus_stop"
+			],
+			[
+				"walk",
+				"walking_direction_from_bus_stop"
+			],
+			[
+				"source_bus",
+				"source_bus_stop_path"
+			],
+			[
+				"destination",
+				"destination"
+			],
+			[
+				"trips",
+				"trips_with_availability"
+			],
+			[
+				"max",
+				"max_occupancy"
+			],
+			[
+				"total",
+				"total_deboarded"
+			],
+			[
+				"alight",
+				"alighting_bus_stop_id"
+			],
+			[
+				"alig",
+				"alighting_bus_stop_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "hw2.md",
+			"settings":
+			{
+				"buffer_size": 1627,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/pandoc_to_pdf.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/User/black.sublime-build",
+					""
+				],
+				[
+					"Packages/User/pandoc_to_pdf.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/pandoc_to_pdf.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"to spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"to tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"build ",
+				"Set Syntax: NAnt Build File"
+			],
+			[
+				"save proj",
+				"Project: Save As"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"diffy",
+				"Diffy Compare"
+			],
+			[
+				"diff",
+				"Diffy Compare"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"clos",
+				"Project: Close"
+			],
+			[
+				"auto",
+				"Auto Wrap: Toggle"
+			],
+			[
+				"auto w",
+				"Auto Wrap: Toggle"
+			],
+			[
+				"reint",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"color",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install t",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime tuto",
+				"Sublime Tutor: Start"
+			],
+			[
+				"sublimegit",
+				"SublimeGit: Version"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"fine key ",
+				"FindKeyConflicts: All Key Maps to Quick Panel"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install packae",
+				"Package Control: Install Package"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"synta",
+				"Set Syntax: Diff"
+			],
+			[
+				"git diff",
+				"Git: Diff"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"pretty ",
+				"Pretty Ruby: Format"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"packageinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax git diff",
+				"Set Syntax: SublimeGit Diff"
+			],
+			[
+				"syntax",
+				"Set Syntax: Diff"
+			],
+			[
+				"git b lame",
+				"Git: Blame"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"removepac",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"package remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"syntax diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"syntax ",
+				"Set Syntax: Diff"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax:diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"syntax git",
+				"Set Syntax: SublimeGit Diff"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"gst",
+				"Git: Status"
+			]
+		],
+		"width": 539.0
+	},
+	"console":
+	{
+		"height": 263.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"subprocess.Popen([executable_path, './Tutorial'], cwd='/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/')",
+			"subprocess.Popen([executable_path, './'], cwd='/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/')",
+			"subprocess([executable_path, './'], cwd='/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/')",
+			"executable_path",
+			"executable_path = app_path+\"Contents/SharedSupport/bin/subl\"",
+			"app_path = executable_path[:executable_path.rfind(\".app/\")+5]",
+			"executable_path = sublime.executable_path()",
+			"subprocess.Popen(['pwd'])",
+			"import subprocess",
+			"sublime.active_window().run_command(\"sublime_tutor_new_window\")",
+			"sublime.active_window().run_command",
+			"sublime.active_window()",
+			"sublime.executable_path()",
+			"subliem.executable_path()",
+			"executable_path[:executable_path.rfind(\".app/\")+5] + \"Contents/SharedSupport/bin/subl\"",
+			"executable_path[:executable_path.rfind(\".app/\")+5]",
+			"executable_path = sublime.executable_path()",
+			"sublime.executable_path().executable_path[:executable_path.rfind(\".app/\")+5]",
+			"executable_path[:executable_path.rfind(\".app/\")+5]",
+			"sublime.executable_path()",
+			"sublime.log_commands(False)",
+			"sublime.open_project",
+			"window.open_project",
+			"window.open_file",
+			"view.run_command(\"select_by_index\")",
+			"window.run_command(\"select_by_index\")",
+			"sublime.select_by_index",
+			"view.run_command(\"example\")",
+			"sublime.run_command(\"example\")",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/witalis/Documents/Studia/sw"
+	],
+	"file_history":
+	[
+		"/home/witalis/Documents/Studia/sw/hw2.md",
+		"/home/witalis/Documents/Studia/sw/hw1.md",
+		"/home/witalis/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/witalis/.Xresources",
+		"/home/witalis/asd.txt",
+		"/home/witalis/Downloads/FastPhotoStyle/demo.py",
+		"/home/witalis/Documents/Studia/sw/testbp2.tex",
+		"/home/witalis/Documents/Studia/sw/asd.md",
+		"/home/witalis/Documents/Studia/sw/proofeg.tex",
+		"/tmp/mozilla_witalis0/testbp2-1.tex",
+		"/home/witalis/Downloads/proof.sty",
+		"/home/witalis/Documents/Studia/vrnn/radam/radam_v2/resnet_runner.py",
+		"/home/witalis/Documents/Studia/vrnn/radam/radam_v1/adam_sylvester.log",
+		"/home/witalis/Documents/Studia/vrnn/radam/radam_v1/radam_sylvester.log",
+		"/home/witalis/Documents/Studia/vrnn/radam/radam_v1/adam_arnold.log",
+		"/home/witalis/Documents/Studia/vrnn/radam/radam_v1/radam_arnold.log",
+		"/home/witalis/.config/i3status/config",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/run_many.sh",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/run.sh",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/run_many_rest.sh",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/aip_std_scoring.yaml",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/football_scor.yaml",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/football_check.yaml",
+		"/tmp/test.yaml",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/chec_yamg_gen.sh",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/scor_yamg_gen.sh",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/11v11_easy_scor.json",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/11v11_med_scor.json",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/11v11_easy_check.json",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/11v11_hard_scor.json",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/gcp/11v11_hard_check.json",
+		"/home/witalis/Documents/Studia/zpp/seed_rl/gcp/train_football_checkpoints.sh",
+		"/home/witalis/Documents/Studia/zpp/seed_rl/gcp/run_exp.sh",
+		"/home/witalis/Documents/Studia/zpp/seed_rl/football/environment_test.py",
+		"/home/witalis/Documents/Studia/zpp/seed_rl/football/env.py",
+		"/home/witalis/.ssh/config",
+		"/home/witalis/Documents/Studia/zpp/seed_rl/gcp/train_football_academy_3_vs_1_with_keeper.sh",
+		"/home/witalis/Documents/Studia/zpp/seed_rl/gcp/setup.sh",
+		"/home/witalis/Documents/Studia/zpp/football/gfootball/env/football_env.py",
+		"/home/witalis/Documents/Studia/zpp/experiments/run_multiagent_rllib.py",
+		"/home/witalis/Documents/Studia/zpp/seed_rl/gcp/train_football_3_vs_1.sh",
+		"/home/witalis/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/witalis/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/witalis/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/witalis/Documents/Studia/zpp/football/gfootball/env/config.py",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/action_wrappers.py",
+		"/home/witalis/Documents/Studia/zpp/gfootball_zpp/env_composer.py",
+		"/home/witalis/Documents/Studia/zpp/seed_rl/gcp/train_football_3_separated_models.sh",
+		"/tmp/mozilla_witalis0/seed_uruchamianie.md",
+		"/home/witalis/Documents/Studia/zpp/seed_rl/football/agents.py",
+		"/home/witalis/Documents/Studia/bsk/pwn/cw1_py/demo2.py",
+		"/home/witalis/Documents/Studia/bsk/pwn/cw1_py/demo3.py",
+		"/home/witalis/Documents/Studia/bsk/pwn/cw1_py/demo.py",
+		"/home/witalis/Documents/Studia/bsk/pwn/env/lib/python3.7/site-packages/Pygments-2.4.2.dist-info/entry_points.txt",
+		"/home/witalis/.Xra",
+		"/home/witalis/Downloads/seed_rl/gcp/train_football_scoring.sh",
+		"/home/witalis/Downloads/seed_rl/gcp/setup.sh",
+		"/home/witalis/Downloads/run_ppo2_refactor.py",
+		"/home/witalis/Downloads/run_ppo2.py",
+		"/home/witalis/.config/sublime-text-3/sublime_packages.txt",
+		"/home/witalis/Documents/Staze/Google/mail_dates.txt",
+		"/home/witalis/Documents/Staze/Google/Additional_skills.txt",
+		"/home/witalis/Documents/Staze/Google/Additional_preferences.txt",
+		"/home/witalis/.gitignore",
+		"/home/witalis/.gitconfig",
+		"/home/witalis/Downloads/a.py",
+		"/home/witalis/asd.sh",
+		"/home/witalis/.bashrc",
+		"/home/witalis/.config/sublime-text-3/Packages/Sublime Tutor/tutorial/README.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_15.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/README.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_9.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_13.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_12.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_11.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_8.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_7.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_6.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_5.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_4.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/code/chapter_1.rb",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_1.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_1.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/tutorial.sublime-completions",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/README.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_6.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_14.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/contents.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4_1.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/code/chapter_1.rb",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_4.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_6.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_5.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/contents.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_7.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_8.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_10.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_9.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/sublimetutor.sublime-project",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_11.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_12.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_13.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_14.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_15.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_1.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_7.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_1.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_8.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_4.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_5.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_6.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_1.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/README.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/Contents.md"
+	],
+	"find":
+	{
+		"height": 58.0
+	},
+	"find_in_files":
+	{
+		"height": 256.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"aligned",
+			"where",
+			"textrm",
+			"\\(",
+			"b, s, p",
+			":=",
+			">  ",
+			"\\to",
+			":=",
+			"<",
+			">",
+			"->",
+			">",
+			"<",
+			">",
+			"<",
+			"[",
+			"texttt",
+			"text",
+			"v",
+			"\\beta",
+			"s'>",
+			"s>",
+			"infer",
+			"Adam",
+			"callbacks",
+			"training_logs_file_name",
+			"logs_file",
+			"print(",
+			"The",
+			"print(\"",
+			"print(",
+			"logs_file",
+			"params_and_vals"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"b, s",
+			"> ",
+			"\\leadsto",
+			"\\coloneqq",
+			"\\left<",
+			"\\right> ",
+			"\\right>",
+			"\\left<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "hw2.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1627,
+								1627
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 17,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 754.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 96.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 175.0
+	},
+	"output.exec":
+	{
+		"height": 587.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/pandoc_to_pdf.sublime-build",
+	"project": "sw.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"foot",
+				"football/gfootball/env/football_env.py"
+			],
+			[
+				"ray multi",
+				"experiments/run_multiagent_rllib.py"
+			],
+			[
+				"footb",
+				"football/gfootball/env/football_env.py"
+			],
+			[
+				"footbal",
+				"football/gfootball/env/football_env.py"
+			],
+			[
+				"env_",
+				"gfootball_zpp/env_composer.py"
+			],
+			[
+				"run_mul",
+				"experiments/run_multiagent_rllib.py"
+			],
+			[
+				"gf_zpp/",
+				"gfootball_zpp/env_composer.py"
+			],
+			[
+				"gfootball/",
+				"gfootball_zpp/action_wrappers.py"
+			],
+			[
+				"football/",
+				"seed_rl/football/agents.py"
+			],
+			[
+				"demo2.py",
+				"cw1_py/demo2.py"
+			],
+			[
+				"set",
+				"setup.sh"
+			],
+			[
+				"chapt2.2",
+				"chapter_2_2.md"
+			],
+			[
+				"c21",
+				"chapter_2_1.md"
+			],
+			[
+				"c2.md",
+				"chapter_2.md"
+			],
+			[
+				"c1rb",
+				"code/chapter_1.rb"
+			],
+			[
+				"1.",
+				"chapter_1.md"
+			],
+			[
+				"1",
+				"chapter_1.md"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"readme.",
+				"README.md"
+			],
+			[
+				"",
+				"bz2/dependency-metadata.json"
+			],
+			[
+				"keybind",
+				"KeyBindingInspector/KeyBindingListener.py"
+			],
+			[
+				"keyb",
+				"KeyBindingInspector/KeyBindingListener.py"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"feedbackcontr",
+				"app/controllers/api/v1/feedbacks_controller.rb"
+			],
+			[
+				"referral.rb",
+				"app/models/referral.rb"
+			],
+			[
+				"freebookin",
+				"app/models/free_booking.rb"
+			],
+			[
+				"freebookingcontr",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			],
+			[
+				"usercontr",
+				"app/controllers/api/v1/users_controller.rb"
+			],
+			[
+				"trip.rb",
+				"app/models/trip.rb"
+			],
+			[
+				"route.rb",
+				"app/models/route.rb"
+			],
+			[
+				"bookingcontr",
+				"app/controllers/api/v1/bookings_controller.rb"
+			],
+			[
+				"routecontr",
+				"app/controllers/api/v1/routes_controller.rb"
+			],
+			[
+				"booking.rb",
+				"app/models/booking.rb"
+			],
+			[
+				"static",
+				"app/controllers/api/v1/static_controller.rb"
+			],
+			[
+				"schemar.b",
+				"db/schema.rb"
+			],
+			[
+				"secret",
+				"config/secrets.yml"
+			],
+			[
+				"bookingserial",
+				"app/serializers/booking_serializer.rb"
+			],
+			[
+				"freebookingscredit",
+				"db/migrate/20151015072825_add_default_value_for_free_bookings_credit_used.rb"
+			],
+			[
+				"freebookingcred",
+				"db/migrate/20151008113500_add_free_bookings_credit_used_to_bookings.rb"
+			],
+			[
+				"vagrantfile",
+				"railsbox/development/Vagrantfile"
+			],
+			[
+				"adddefault",
+				"db/migrate/20150820081758_add_default_values_to_booking_attributes.rb"
+			],
+			[
+				"bookingseria",
+				"app/serializers/booking_serializer.rb"
+			],
+			[
+				"routescontr",
+				"app/controllers/api/v1/routes_controller.rb"
+			],
+			[
+				"feedba",
+				"app/admin/feedback.rb"
+			],
+			[
+				"path.rb",
+				"app/admin/path.rb"
+			],
+			[
+				"bus.rb",
+				"app/admin/bus.rb"
+			],
+			[
+				"driver.rb",
+				"app/admin/driver.rb"
+			],
+			[
+				"driver.",
+				"app/admin/driver.rb"
+			],
+			[
+				"feedback.",
+				"app/admin/feedback.rb"
+			],
+			[
+				"booking",
+				"app/admin/booking.rb"
+			],
+			[
+				"secret.",
+				"config/secrets.yml"
+			],
+			[
+				".yml",
+				"config/locales/en.yml"
+			],
+			[
+				"en.ym",
+				"config/locales/en.yml"
+			],
+			[
+				"freebooking.rb",
+				"app/models/free_booking.rb"
+			],
+			[
+				"freebookingcont",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			],
+			[
+				"referralcontr",
+				"app/controllers/api/v1/referrals_controller.rb"
+			],
+			[
+				"reffer",
+				"db/migrate/20151014084146_add_referrer_credited_to_referrals.rb"
+			],
+			[
+				"schema.rb",
+				"db/schema.rb"
+			],
+			[
+				"referral",
+				"app/models/referral.rb"
+			],
+			[
+				"gettrevo",
+				"railsbox/ansible/roles/nginx/templates/get_trevoapp.conf.j2"
+			],
+			[
+				"gettrev",
+				"railsbox/ansible/roles/nginx/templates/get_trevoapp.conf.j2"
+			],
+			[
+				"unicorn.con",
+				"railsbox/ansible/roles/nginx/templates/nginx_unicorn.conf.j2"
+			],
+			[
+				"nginxunico",
+				"railsbox/ansible/roles/nginx/templates/nginx_unicorn.conf.j2"
+			],
+			[
+				"nginxconf",
+				"railsbox/ansible/roles/nginx/templates/nginx.conf.j2"
+			],
+			[
+				"userseria",
+				"app/serializers/user_serializer.rb"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"freebookings",
+				"app/serializers/free_booking_serializer.rb"
+			],
+			[
+				"freebookingscon",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			],
+			[
+				"referralseria",
+				"app/serializers/referral_serializer.rb"
+			],
+			[
+				"userserializer",
+				"app/serializers/user_serializer.rb"
+			],
+			[
+				"wallettransactionser",
+				"app/serializers/wallet_transaction_serializer.rb"
+			],
+			[
+				"applicationcontr",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"freebooking",
+				"app/models/free_booking.rb"
+			],
+			[
+				"freebookingser",
+				"app/serializers/free_booking_serializer.rb"
+			],
+			[
+				"freebookingscontr",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			],
+			[
+				"trevo.rake",
+				"lib/tasks/trevo.rake"
+			],
+			[
+				"bookingcontroller",
+				"app/controllers/api/v1/bookings_controller.rb"
+			],
+			[
+				"referralcon",
+				"app/controllers/api/v1/referrals_controller.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"location.rb",
+				"app/models/location.rb"
+			],
+			[
+				"referralscontr",
+				"app/controllers/api/v1/referrals_controller.rb"
+			],
+			[
+				"freebookingseri",
+				"app/serializers/free_booking_serializer.rb"
+			],
+			[
+				"freeb",
+				"app/models/free_booking.rb"
+			],
+			[
+				"bookingfreebooking",
+				"db/migrate/20151008130311_create_bookings_free_bookings.rb"
+			],
+			[
+				"bookingfree",
+				"app/models/bookings_free_booking.rb"
+			],
+			[
+				"bookingsfree",
+				"db/migrate/20151008130311_create_bookings_free_bookings.rb"
+			],
+			[
+				"renamefree",
+				"db/migrate/20151008125554_rename_free_bookings_to_promotions.rb"
+			],
+			[
+				"bookingscontr",
+				"app/controllers/api/v1/bookings_controller.rb"
+			],
+			[
+				"freebookingscontroller",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			],
+			[
+				"busserializer",
+				"app/serializers/bus_serializer.rb"
+			],
+			[
+				"freebookingseria",
+				"app/serializers/free_booking_serializer.rb"
+			],
+			[
+				"freebookings.rb",
+				"spec/models/free_booking_spec.rb"
+			],
+			[
+				"addfreebookings",
+				"db/migrate/20151008113500_add_free_bookings_credit_used_to_bookings.rb"
+			],
+			[
+				"addfreebooking",
+				"db/migrate/20151008110423_add_free_bookings_credit_used_to_bookings.rb"
+			],
+			[
+				"addfrees",
+				"db/migrate/20151008110423_add_frees_trip_credit_used_to_bookings.rb"
+			],
+			[
+				"addbooking",
+				"db/migrate/20151008110423_add_frees_trip_credit_used_to_bookings.rb"
+			],
+			[
+				"createreferr",
+				"db/migrate/20151008110827_create_referrals.rb"
+			],
+			[
+				"createbooking",
+				"db/migrate/20150819092129_create_bookings.rb"
+			],
+			[
+				"referralcode",
+				"db/migrate/20151008081112_add_referral_code_to_users.rb"
+			],
+			[
+				"add",
+				"db/migrate/20150828142243_add_devise_to_buses.rb"
+			],
+			[
+				"applicationcont",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"parkingsequence",
+				"app/models/parking_sequence.rb"
+			],
+			[
+				"drivercontr",
+				"app/controllers/api/v1/drivers_controller.rb"
+			],
+			[
+				"parameter",
+				"app/models/parameter.rb"
+			],
+			[
+				"feedback.rb",
+				"app/models/feedback.rb"
+			],
+			[
+				"hasnfc",
+				"db/migrate/20151007061805_add_has_ble_and_has_nfc_to_users.rb"
+			],
+			[
+				"driversess",
+				"app/controllers/api/v1/driver_sessions_controller.rb"
+			],
+			[
+				"userserial",
+				"app/serializers/user_serializer.rb"
+			],
+			[
+				"staticcont",
+				"app/controllers/api/v1/static_controller.rb"
+			],
+			[
+				"logout",
+				"app/workers/logout_drivers_worker.rb"
+			],
+			[
+				"driversession",
+				"app/controllers/api/v1/driver_sessions_controller.rb"
+			],
+			[
+				"smswor",
+				"app/workers/send_sms_worker.rb"
+			],
+			[
+				"removeuniqu",
+				"db/migrate/20151005140605_remove_uniq_index_from_buses.rb"
+			],
+			[
+				"session",
+				"app/controllers/api/v1/sessions_controller.rb"
+			],
+			[
+				"sendsms",
+				"app/workers/send_sms_worker.rb"
+			],
+			[
+				"bussession",
+				"app/controllers/api/v1/bus_sessions_controller.rb"
+			],
+			[
+				"routescont",
+				"app/controllers/api/v1/routes_controller.rb"
+			],
+			[
+				"sess",
+				"app/controllers/api/v1/sessions_controller.rb"
+			],
+			[
+				"trip",
+				"app/admin/trip.rb"
+			],
+			[
+				"routecont",
+				"app/controllers/api/v1/routes_controller.rb"
+			],
+			[
+				"authe",
+				"app/controllers/concerns/authenticable.rb"
+			],
+			[
+				"buscontr",
+				"app/controllers/api/v1/buses_controller.rb"
+			],
+			[
+				"authent",
+				"app/controllers/concerns/authenticable.rb"
+			],
+			[
+				"buscontro",
+				"app/controllers/api/v1/buses_controller.rb"
+			],
+			[
+				"isactivedri",
+				"db/migrate/20151003112122_add_is_active_to_drivers.rb"
+			],
+			[
+				"isactive",
+				"db/migrate/20151003104401_add_is_active_to_buses.rb"
+			],
+			[
+				"paymentcontr",
+				"app/controllers/api/v1/payments_controller.rb"
+			],
+			[
+				"payment.rb",
+				"app/models/payment.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 709.0,
+		"last_filter": "pwn",
+		"selected_items":
+		[
+			[
+				"pwn",
+				"~/Documents/Studia/bsk/pwn.sublime-project"
+			],
+			[
+				"",
+				"~/subl_proj/zpp.sublime-project"
+			]
+		],
+		"width": 538.0
+	},
+	"select_symbol":
+	{
+		"height": 87.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"bar1"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
