@@ -5,10 +5,13 @@ header-includes:
     - \usepackage{mathtools}
     - \usepackage{latexsym}
     - \usepackage{stmaryrd}
+    - \usepackage{amssymb}
     - \newcommand{\Call}{\texttt{call }}
     - \newcommand{\proc}{\texttt{proc }}
     - \newcommand{\default}{\texttt{ default }}
     - \newcommand{\Z}{\mathbb{Z}}
+    - \newcommand{\N}{\mathcal{N}}
+    - \newcommand{\B}{\mathcal{B}}
     - \newcommand{\D}{\mathcal{D}}
     - \newcommand{\E}{\mathcal{E}}
     - \newcommand{\e}{\epsilon}
@@ -24,15 +27,37 @@ output:
 ---
 
 
-# Dziedziny pomocnicze
+# Dziedziny syntaktyczne
 
-- $Proc = (VEnv \to State \to \Z) \times (\Z \to State \to State)$
-- $PEnv = PName \to Proc$
+Jak w treści.
 
-# Dziedziny semantyczne
+# Dziedziny pomocnicze i semantyczne
 
-- $\D : Decl \to VEnv \to PEnv \to State \to (VEnv \times PEnv \times State)$
-- $\S : Instr \to VEnv \to PEnv \to State \to State$
+Jedynie $\mathbf{Proc}$ jest niestandardowe.
+
+- $\mathbf{Proc} = (\mathbf{Store} \to \Z) \times (\Z \to \mathbf{Store} \to \mathbf{Store})$
+
+Reszta standardowo.
+
+- $\Z$
+- $\mathbf{Bool} = \{tt, ff\}$
+- $\mathbf{VEnv} = Var \to \mathbf{Loc}$
+- $\mathbf{PEnv} = PName \to \mathbf{Proc}$
+- $\mathbf{Store} = \mathbf{Loc} \to \Z$
+- $\mathbf{EXP} = \mathbf{VEnv} \to \mathbf{Store} \to \Z$
+- $\mathbf{BEXP} = \mathbf{VEnv} \to \mathbf{Store} \to \mathbf{Bool}$
+- $\mathbf{DECL} = \mathbf{VEnv} \to \mathbf{PEnv} \to \mathbf{Store} \to (\mathbf{VEnv} \times \mathbf{PEnv} \times \mathbf{Store})$
+- $\mathbf{INSTR} = \mathbf{VEnv} \to \mathbf{PEnv} \to \mathbf{Store} \to \mathbf{Store}$
+
+# Funkcje semantyczne
+
+Standardowo.
+
+- $\N : Num \to \Z$
+- $\E : Expr \to \mathbf{EXP}$
+- $\B : BExpr \to \mathbf{BEXP}$
+- $\D : Decl \to \mathbf{DECL}$
+- $\S : Instr \to \mathbf{INSTR}$
 
 # Rozwiązanie
 
@@ -45,12 +70,13 @@ $$
     \left(
         \rov,
         \rop \left[p \mapsto \left(
-            \E \llbracket e \rrbracket,
+            \E \llbracket e \rrbracket\ \rov,
             \Fix \Phi\right)\right],
         s\right) \\
-& \t \Where \Phi\ P\ n\ s =
-    \S \llbracket I \rrbracket\ \rov[x \mapsto l_x]\ \rop[p \mapsto \left(\E \llbracket e \rrbracket, P\right)]\ s'[l_x \mapsto n] \\
-& \t\t \Where (l_x, s') = \Alloc s
+& \t \Where \\
+& \t \t \Phi =
+    \lambda f. \lambda n.\lambda s'.\S \llbracket I \rrbracket\ \rov[x \mapsto l_x]\ \rop[p \mapsto \left(\E \llbracket e \rrbracket\ \rov, f\right)]\ s''[l_x \mapsto n] \\
+& \t\t\t \Where (l_x, s'') = \Alloc s'
 \end{split}
 $$
 
@@ -59,15 +85,19 @@ $$
 ### $\Call p$
 $$
 \begin{split}
-& \S \llbracket \Call p \rrbracket\ \rov\ \rop\ s = P\ (\e\ \rov\ s)\ s \\
-& \t \Where (\e, P) = \rop\ p
+& \S \llbracket \Call p \rrbracket\ \rov\ \rop\ s = f\ (\e\ s)\ s \\
+& \t \Where (\e, f) = \rop\ p
 \end{split}
 $$
 
 ### $\Call p(e)$
 $$
 \begin{split}
-& \S \llbracket \Call p(e) \rrbracket\ \rov\ \rop\ s = P\ (\E \llbracket e \rrbracket\ \rov\ s)\ s \\
-& \t \Where (\_, P) = \rop\ p
+& \S \llbracket \Call p(e) \rrbracket\ \rov\ \rop\ s = f\ (\E \llbracket e \rrbracket\ \rov\ s)\ s \\
+& \t \Where (\_, f) = \rop\ p
 \end{split}
 $$
+
+## Reszta
+
+Reszta nie różni się od standardowej semantyki języka z procedurami z parametrami przekazywanymi przez wartość.

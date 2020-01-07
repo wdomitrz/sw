@@ -212,6 +212,26 @@
 				"Project: Close"
 			],
 			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
 				"to spaces",
 				"Indentation: Convert to Spaces"
 			],
@@ -491,6 +511,7 @@
 	],
 	"file_history":
 	[
+		"/home/witalis/.config/scripts/mar.sh",
 		"/home/witalis/Documents/Studia/sw/hw2.md",
 		"/home/witalis/Documents/Studia/sw/hw1.md",
 		"/home/witalis/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
@@ -617,8 +638,7 @@
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_5.md",
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_6.md",
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_1.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/README.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/Contents.md"
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/README.md"
 	],
 	"find":
 	{
@@ -636,6 +656,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"mathbb",
+			"State",
+			"f",
 			"aligned",
 			"where",
 			"textrm",
@@ -689,7 +712,7 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
@@ -737,11 +760,15 @@
 	},
 	"output.exec":
 	{
-		"height": 370.0
+		"height": 204.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 163.0
 	},
 	"pinned_build_system": "Packages/User/pandoc_to_pdf.sublime-build",
 	"project": "sw.sublime-project",
