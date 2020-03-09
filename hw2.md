@@ -20,7 +20,7 @@ header-includes:
     - \newcommand{\Alloc}{\textsf{alloc }}
     - \newcommand{\Fix}{\textsf{fix }}
     - \renewcommand{\t}{\qquad}
-    - \newcommand{\rov}{\rho_{V}}
+    - \newcommand{\rov}{o\rho_{V}}
     - \newcommand{\rop}{\rho_{P}}
 output:
     pdf_document

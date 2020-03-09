@@ -1,0 +1,90 @@
+%!TEX encoding =  UTF-8 Unicode
+
+\documentclass[final,12pt]{article}
+\usepackage{a4wide}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage[polish,english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage[pdftex]{color}
+\usepackage[final]{listings}
+
+%%%%%%%%%%%%% listings
+\lstdefinelanguage{whileprograms}{morekeywords={while,do,if,then,else,),(,decr,in,wrt},%
+   sensitive,%
+   morecomment=[l]//,%
+   morecomment=[s]{\{}{\}},%
+   morecomment=[s]{[}{]},%
+    basicstyle=\small\tt,
+    keywordstyle=\normalfont\bfseries\color{black},
+    commentstyle=\color{blue},
+    mathescape=true,
+}
+
+\lstset{language=whileprograms,flexiblecolumns=true,mathescape=true,frame=none}
+\lstset{commentstyle=\it,basicstyle=\tt}
+\lstset{literate={<=}{{$\leq$}}2
+                {>=}{{$\geq$}}2
+                 {^}{{$\land$}}2
+                 {&}{{$\land$}}2}
+
+\pagestyle{empty}
+
+\begin{document}
+\lstset{language=whileprograms} \selectlanguage{polish}
+
+\begin{center}
+{\bf Semantyka i weryfikacja programów 2019/20.\\
+     Zadanie domowe nr 3 }
+
+\end{center}
+Dany jest następujący program w języku TINY, obliczający 
+najmniejszą wspólną wielokrotność liczb $x$ i $y$.
+\begin{lstlisting}
+{x>0, y>0}
+xx:=x; yy:=y;
+wx:=x; wy:=y;
+{                                                                                      }
+while {                                                                                }
+   wx<>wy do
+      {                                                                                }
+      if wx<wy then
+            while {                                                                    }
+               wx+2*xx<=wy do
+                  {                                                                    }
+                  xx:=2*xx;
+            {                                                                          }
+            wx:=wx+xx;
+            xx:=x
+      else
+            while {                                                                    }
+               wy+2*yy<=wx do
+                  {                                                                    }
+                  yy:=2*yy;
+            {                                                                          }
+            wy:=wy+yy;
+            yy:=y
+{                                                                                      }
+{wx=NWW(x,y)}
+\end{lstlisting}
+Udowodnij częściową poprawność programu względem podanej
+specyfikacji
+tj.
+\begin{enumerate}
+\item Podaj niezmienniki wszystkich pętli.
+\item Wstaw odpowiednie formuły w nawiasy klamrowe tak, aby powstałe anotacje umożliwiały przeprowadzenie dowodu częściowej poprawności.
+\end{enumerate}
+
+W swoich formułach możesz użyć dwuargumentowej funkcji {\tt NWW}, oznaczającej najmniejszą wspólną wielokrotność, oraz dwuargumentowego predykatu {\tt div}, oznaczającego podzielność. Można je zresztą łatwo zdefiniować w logice pierwszego rzędu, pisząc:
+\[
+	{\tt div}(x,y) \iff \exists z. (z>0\land y=x\cdot z)
+\]
+a zamiast ${\tt NWW}(x,y)=z$ pisząc:
+\[
+	{\tt div}(x,z) \land {\tt div}(y,z) \land \forall u.(({\tt div}(x,u) \land {\tt div}(y,u)) \implies z\leq u)
+\]
+
+\end{document}
